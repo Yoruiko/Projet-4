@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255,255,255,.7);
 }
 
 .d-bloc button:hover {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(113, 100, 65, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,21 +771,27 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #95370F;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+}
+.tc-gold {
+    color: #FBD553!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #7F482E;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+}
+.btn-atomic-tangerine:focus {
+    background: #c27956!important;
 }
 
 .ltc-white {
@@ -917,6 +923,9 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+    .row, h2{
+        color: red;
+    }
     .site-navigation {
         position: inherit;
         transform: none;
@@ -1025,6 +1034,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
