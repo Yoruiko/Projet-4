@@ -572,7 +572,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: 320px;
     margin: 0 auto;
 }
 
@@ -741,6 +741,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .portfolio-row {
@@ -824,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
